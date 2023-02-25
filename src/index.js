@@ -3,8 +3,8 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import ImgApiService from './ImgApiService.js';
-import LoadMoreBtn from './LoadMoreBtn.js';
+import ImgApiService from './js/ImgApiService.js';
+import LoadMoreBtn from './js/LoadMoreBtn.js';
 
 const formEl = document.getElementById('search-form');
 const galleryEl = document.querySelector('.gallery');
